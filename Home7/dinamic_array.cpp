@@ -1,4 +1,4 @@
-// dinamic_array.hpp
+﻿// dinamic_array.hpp
 
 #include "dinamic_array.hpp"
 

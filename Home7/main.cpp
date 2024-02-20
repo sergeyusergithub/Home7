@@ -1,4 +1,4 @@
-// main.cpp
+﻿// main.cpp
 
 #include <iostream>
 #include "dinamic_array.hpp"
