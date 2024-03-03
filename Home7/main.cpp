@@ -3,6 +3,7 @@
 #include <iostream>
 #include "dinamic_array.hpp"
 
+/// функция для проверки динамического массива типа char
 void arr_char(DinamicArray<char>& str, const char* chr) {
 	for (int i = 0; i < str.size(); i++) {
 		str[i] = chr[i];
@@ -10,7 +11,11 @@ void arr_char(DinamicArray<char>& str, const char* chr) {
 }
 
 int main() {
-
+	/*!
+	* \brief Проверка динамического массива
+	* 
+	* 
+	*/
 	DinamicArray<int> arr(10);
 
 	arr[3] = 15;
